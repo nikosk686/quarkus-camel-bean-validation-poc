@@ -12,7 +12,7 @@ dependencies {
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-arc'
     implementation 'io.quarkus:quarkus-hibernate-validator'
-//    implementation 'io.quarkus:quarkus-resteasy-reactive-jackson'
+    implementation 'io.quarkus:quarkus-resteasy-reactive-jackson'
     implementation "org.apache.camel.quarkus:camel-quarkus-bean:${quarkusCamelVersion}"
     implementation "org.apache.camel.quarkus:camel-quarkus-jackson:${quarkusCamelVersion}"
     implementation "org.apache.camel.quarkus:camel-quarkus-core:${quarkusCamelVersion}"
